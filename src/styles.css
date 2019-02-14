@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+}
+.btn {
+  color: skyblue;
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+  outline: none;
+  margin: 0.5rem;
+  border: 1px black solid;
+}
+.btn.disabled {
+  color: #c7c0c0;
+  cursor: not-allowed;
+}
+.btn.link {
+  border: none;
+}
+.link.active {
+  border-bottom: 1px skyblue solid;
+}
+.list {
+  border: 1px #c3bdbd solid;
+  min-height: 377px;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header.row {
+  border-bottom: 1px #c3bdbd solid;
+}
+.cell {
+  margin: 0.5rem;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.pagination-btn {
+  width: 2rem;
+}
+.grow {
+  flex: 1;
+}

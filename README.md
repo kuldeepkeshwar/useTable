@@ -1,2 +1,0 @@
-# useTable
-Created with CodeSandbox
